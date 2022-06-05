@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="simple-task-camunda:war">
+    <output-path>$PROJECT_DIR$/simple-task-camunda/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>simple-task-camunda</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="simple-task-camunda-1.0.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="simple-task-camunda:war exploded" />
+    </root>
+  </artifact>
+</component>
